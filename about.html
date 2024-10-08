@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Dönüşüm Yapı ve Mühendislik</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.ico" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Dönüşüm Yapı ve Mühendislik</h1> <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="about.html" class="active">Hakkımızda</a></li>
+          <li><a href="projects.html">Projelerimiz</a></li>
+          <li class="dropdown"><a href="#"><span>Hizmetlerimiz</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li class="dropdown"><a href="ic-dismekan.html"><span>İç ve Dış Mekan Görselleştirme</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">İç Mekan Görselleştirme</a></li>
+                  <li><a href="#">Dış Mekan Görselleştirme</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="rölöve.html"><span>Rölöve İşlemleri</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Mimari Rölöve</a></li>
+                  <li><a href="#">Tarihi Yapılar Rölövesi</a></li>
+                  <li><a href="#">Mevcut Durum Analizi</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="tamirat.html"><span>Tamirat ve Tadilat Hizmetleri</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">İç Mekan Tamiratı</a></li>
+                  <li><a href="#">Dış Mekan Tamiratı</a></li>
+                  <li><a href="#">Tadilat Hizmetleri</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="dekorasyon.html"><span>Dekorasyon Hizmetleri</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">İç Mekan Dekorasyonu</a></li>
+                  <li><a href="#">Dış Mekan Dekorasyonu</a></li>
+                  <li><a href="#">Stil Danışmanlığı</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="peyzaj.html"><span>Peyzaj ve Bahçe Düzenleme Hizmetleri</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Bahçe Tasarımı</a></li>
+                  <li><a href="#">Peyzaj Düzenleme</a></li>
+                  <li><a href="#">Bakım Hizmetleri</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="fireproofing.html"><span>Fireproofing Uygulamaları ve Pasif Yangın Durdurucu Hizmetler</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Fireproofing Uygulamaları</a></li>
+                  <li><a href="#">Pasif Yangın Durdurucu Sistemler</a></li>
+                  <li><a href="#">Yangın Boyası Uygulamaları</a></li>
+                  <li><a href="#">Bakım ve Denetim</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="kumlama.html"><span>Kumlama ve Boya Hizmetleri</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Kumlama Uygulamaları</a></li>
+                  <li><a href="#">Boya Uygulamaları</a></li>
+                  <li><a href="#">Bakım ve Onarım </a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Iletişim</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
+      <div class="container position-relative">
+        <h1>Hakkımızda</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li class="current">Hakkımızda</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row position-relative">
+
+          <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="assets/img/mühendislik.jpg"></div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="inner-title">Şirketimiz Hakkında</h2>
+            <div class="our-story">
+              <h4>2024</h4>
+              <h3>Bizim Hikayemiz</h3>
+              <p>Dönüşüm Yapı Ve Mühendislik , yangın güvenliği ve yapı çözümleri alanında uzmanlaşmış bir firmadır. Amacımız, mekanlarınızı en yüksek standartlarda korumak ve estetik bir şekilde dönüştürmektir. Geniş hizmet yelpazemiz, iç ve dış mekan görselleştirme, rölöve işleri, tamirat-tadilat, dekorasyon, peyzaj düzenleme ve fireproofing uygulamaları gibi alanları kapsamaktadır.
+                Deneyimli ekibimiz, sektördeki yenilikleri takip ederek en etkili çözümleri sunmayı hedefler. Müşteri memnuniyetini ön planda tutarak, projelerimizi zamanında ve kaliteli bir şekilde hayata geçiriyoruz. Yangın güvenliği konusunda sunduğumuz pasif sistemler ve yangın yalıtım uygulamaları ile mekanlarınızı güvenli hale getiriyoruz.
+                Dönüşüm Yapı ve Mühendislik olarak, estetik ve güvenliği bir araya getirerek, yaşam alanlarınızı daha konforlu ve işlevsel hale getirmeye çalışıyoruz. Sizi tanımak ve projelerinizi birlikte hayata geçirmek için sabırsızlanıyoruz!
+                </p>
+              <ul>
+                <p>Neden Biz?</p>
+                <li><i class="bi bi-check-circle"></i> <span>Uzman Kadro</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Yüksek Kalite Malzeme</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Hızlı ve Güvenilir Hizmet</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Özelleştirilmiş Çözümler</span></li>
+              </ul>
+              <p>Hizmetlerimiz
+                Kumlama Uygulamaları:
+                Yüzeylerdeki kir, pas veya eski boya tabakalarının temizlenmesi için kumlama işlemi gerçekleştiriyoruz. Metal, ahşap ve beton yüzeylere uygun tekniklerle, yüzeyleri hazırlıyoruz.
+                Boya Uygulamaları:
+                Yüzeyleri korumak ve estetik bir görünüm kazandırmak için kaliteli boya uygulamaları yapıyoruz. İç mekan ve dış mekan boyası, sanayi boyaları ve özel kaplamalar ile mekanlarınızı güzelleştiriyoruz.
+                Bakım ve Onarım:
+                Kumlama ve boya işlemlerinin ardından yüzeylerinizi korumak için bakım ve onarım hizmetleri sunuyoruz. Uzun ömürlü ve dayanıklı sonuçlar elde etmek için gerekli işlemleri gerçekleştiriyoruz.
+                <p>Nasıl Çalışıyoruz?</p>
+                <p>1.	Danışma: İlk görüşmede ihtiyaçlarınızı ve projelerinizi belirliyoruz.</p>
+                <p>2.	Analiz ve Planlama: Uygulama için gerekli malzeme ve yöntemleri seçiyoruz.</p>
+                <p>3.	Uygulama: Onaylanan projeyi uzman ekibimizle hayata geçiriyoruz.</p>
+                <p>4.	Kontrol ve Bakım: Uygulamanın ardından yüzeylerinizi kontrol ederek bakım önerileri sunuyoruz.</p>
+                </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Counter Section -->
+    <section id="stats-counter" class="stats-counter section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Başarılarımız</h2>
+        <p>Daha yeni bir şirketiz, sizinle büyüyüp başarılara koşacağız!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Mutlu Müşterilerimiz</p>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Projelerimiz</p>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-headset color-green flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="60" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Destek Saati</p>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-people color-pink flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Uzman Çalışanlar</p>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Counter Section -->
+
+     <!-- Alt Services Section -->
+     <section id="alt-services-2" class="alt-services-2 section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h3>İç ve Dış Mekan Görselleştirme Hizmetleri</h3>
+            <p>Hayalinizdeki Mekanı Gerçeğe Dönüştürüyoruz.
+             <p>Modern mimarinin ve tasarımın sınırlarını zorlamak için buradayız. İç ve dış mekan görselleştirme hizmetlerimizle, projelerinizi en ince ayrıntısına kadar hayata geçiriyoruz. Gerçekçi 3D görsellerimiz sayesinde, tasarımlarınızı önceden görebilir ve hayalinizdeki mekana adım atabilirsiniz.</p>
+              </p>
+
+            <div class="row">
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-emoji-smile"></i>
+                <div>
+                  <h4>Deneyimli Ekibimiz</h4>
+                  <p>Uzman mimar ve tasarımcılardan oluşan ekibimiz, her projede özgün ve yaratıcı çözümler sunar.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>Zamanında Teslimat</h4>
+                  <p>Proje takviminize uyum sağlamak için çalışıyor, istediğiniz tarihte sonuçları sunuyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-star"></i>
+                <div>
+                  <h4>Yüksek Kalite</h4>
+                  <p>En son teknoloji ile oluşturduğumuz görseller, projelerinizin gerçekçi bir şekilde hayata geçmesini sağlar.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-heart"></i>
+                <div>
+                  <h4>Müşteri Memnuniyeti</h4>
+                  <p>İşbirliğimiz boyunca sürekli iletişimde kalarak ihtiyaçlarınıza en iyi şekilde cevap veriyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+
+          </div>
+
+          <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/görselleştirme.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Alt Services Section -->
+
+    <!-- Alt Services 2 Section -->
+    <section id="alt-services-2" class="alt-services-2 section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h3>Rölöve Hizmetleri</h3>
+            <p>Geçmişin İzlerini Geleceğe Taşıyoruz.
+             <p>Rölöve, mimari projelerin temelini oluşturur. Biz, detaylı ve hassas rölöve hizmetleri sunarak projelerinizin güvenli ve sürdürülebilir bir şekilde ilerlemesini sağlıyoruz. Her adımda, mekanın tarihini ve karakterini göz önünde bulundurarak çalışıyoruz.</p>
+              </p>
+
+            <div class="row">
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-emoji-smile"></i>
+                <div>
+                  <h4>Uzman Kadro</h4>
+                  <p>Deneyimli mimar ve mühendislerimizle her projeyi titizlikle ele alıyoruz. </p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>Hızlı Teslimat</h4>
+                  <p>Proje takviminize uygun şekilde, zamanında ve eksiksiz sonuçlar sunuyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-table"></i>
+                <div>
+                  <h4>Detaylı Ölçüm</h4>
+                  <p>Gelişmiş teknolojiler kullanarak, mekanın tam ölçümlerini alıyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-heart"></i>
+                <div>
+                  <h4>Müşteri Odaklı Yaklaşım</h4>
+                  <p>İhtiyaçlarınıza göre özelleştirilmiş çözümlerle memnuniyetinizi ön planda tutuyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+
+          </div>
+
+          <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/rölöve.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Alt Services 2 Section -->
+
+     <!-- Alt Services 3 Section -->
+     <section id="alt-services-2" class="alt-services-2 section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h3>Tamirat ve Tadilat Hizmetleri</h3>
+            <p>Mekanlarınıza Yenilik ve Konfor Katıyoruz.
+             <p>Eviniz veya iş yeriniz, yaşam alanlarınızın en önemli parçasıdır. Biz, uzman ekibimizle tamirat ve tadilat hizmetleri sunarak mekanlarınızı yenilemek ve ihtiyaçlarınıza uygun hale getirmek için buradayız. Her projede kalite, estetik ve dayanıklılığı ön planda tutuyoruz.</p>
+              </p>
+
+            <div class="row">
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-emoji-smile"></i>
+                <div>
+                  <h4>Deneyimli Ekip</h4>
+                  <p>Alanında uzman profesyonellerle çalışarak her türlü tamirat ve tadilat işini titizlikle gerçekleştiriyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>Hızlı ve Güvenilir Hizmet</h4>
+                  <p>Projelerinizi zamanında ve güvenilir bir şekilde tamamlıyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-check-all"></i>
+                <div>
+                  <h4>Kaliteli Malzeme</h4>
+                  <p>Kullanılan malzemelerin kalitesine dikkat ediyor, uzun ömürlü ve estetik çözümler sunuyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-heart"></i>
+                <div>
+                  <h4>Müşteri Memnuniyeti</h4>
+                  <p>İhtiyaçlarınıza özel çözümler geliştiriyor ve sürekli geri bildirim alarak memnuniyetinizi sağlıyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+
+          </div>
+
+          <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/tamirat.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Alt Services 3 Section -->
+
+     <!-- Alt Services 4 Section -->
+     <section id="alt-services-2" class="alt-services-2 section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h3>Dekorasyon Hizmetleri</h3>
+            <p>Mekanlarınıza Şıklık ve Stil Katıyoruz.
+             <p>Dekorasyon, yaşam alanlarınızı daha konforlu ve estetik hale getirmenin en keyifli yoludur. Biz, uzman ekibimizle hayalinizdeki mekanları gerçeğe dönüştürmek için buradayız. İster ev, ister ofis, her projede kişisel tarzınızı yansıtan çözümler sunuyoruz.</p>
+              </p>
+
+            <div class="row">
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-emoji-smile"></i>
+                <div>
+                  <h4>Profesyonel Tasarımcılar</h4>
+                  <p>Deneyimli tasarımcılarımız, her mekana özgü özgün tasarımlar oluşturur.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>Kaliteli Malzeme</h4>
+                  <p>Seçtiğimiz malzemeler, estetik ve dayanıklılığı bir araya getirerek uzun ömürlü çözümler sağlar.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-cart"></i>
+                <div>
+                  <h4>Kapsamlı Hizmet Yelpazesi</h4>
+                  <p>İç mekan dekorasyonundan dış mekan düzenlemelerine kadar geniş bir hizmet sunuyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-heart"></i>
+                <div>
+                  <h4>Müşteri Memnuniyeti</h4>
+                  <p>İhtiyaçlarınıza odaklanarak, kişisel beğenilerinizi dikkate alıyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+
+          </div>
+
+          <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/dekorasyon.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Alt Services 4 Section -->
+
+    <!-- Alt Services 5 Section -->
+    <section id="alt-services-2" class="alt-services-2 section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h3>Peyzaj ve Bahçe Düzenleme Hizmetleri</h3>
+            <p>Doğanın Güzelliklerini Mekanlarınıza Taşıyoruz.
+             <p>Bahçeniz, dış mekanınızın kalbidir ve doğru bir düzenleme ile hayat bulur. Uzman ekibimiz, peyzaj ve bahçe düzenleme hizmetleri ile mekanlarınıza estetik ve işlevsellik katmayı hedefliyor. Her projede, doğanın ruhunu yansıtan yaratıcı çözümler sunuyoruz.</p>
+              </p>
+
+            <div class="row">
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-emoji-smile"></i>
+                <div>
+                  <h4>Deneyimli Peyzaj Tasarımcıları</h4>
+                  <p>Alanında uzman ekibimiz, her türlü bahçe ve peyzaj projesinde yaratıcı çözümler sunar.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>Kaliteli Malzemeler</h4>
+                  <p>Dayanıklı ve estetik malzemeler kullanarak, uzun ömürlü bahçeler yaratıyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-brightness-high flex-shrink-0"></i>
+                <div>
+                  <h4>Özgün Tasarım</h4>
+                  <p>Her bahçeyi benzersiz kılacak, kişisel zevklerinizi yansıtan tasarımlar oluşturuyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-heart"></i>
+                <div>
+                  <h4>Müşteri Memnuniyeti</h4>
+                  <p>İhtiyaçlarınıza özel hizmet anlayışımızla sürekli geri bildirim alıyor ve sizi ön planda tutuyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+
+          </div>
+
+          <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/peyzaj.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Alt Services 5 Section -->
+
+    <!-- Alt Services 6 Section -->
+    <section id="alt-services-2" class="alt-services-2 section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h3>Fireproofing Uygulamaları ve Pasif Yangın Durdurucu Hizmetler</h3>
+            <p>Yangın Güvenliğiniz İçin Profesyonel Çözümler.
+             <p>Yangın güvenliği, her yapının temel unsurlarından biridir. Biz, fireproofing uygulamaları, pasif yangın durdurucu hizmetler ve yangın boyası ile mekanlarınızı en üst seviyede koruma altına alıyoruz. Uzman ekibimiz, en etkili malzemeleri kullanarak yangın risklerini en aza indiriyor.</p>
+              </p>
+
+            <div class="row">
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-emoji-smile"></i>
+                <div>
+                  <h4>Deneyimli Profesyoneller</h4>
+                  <p>Yangın güvenliği alanında uzmanlaşmış kadromuz, her projede titizlikle çalışır.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>Kaliteli Malzemeler</h4>
+                  <p>Kullanılan tüm malzemeler, yüksek dayanıklılığa sahip ve uluslararası standartlara uygundur.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-check-all"></i>
+                <div>
+                  <h4>Hızlı Uygulama</h4>
+                  <p>Projelerinizi zamanında tamamlayarak, güvenli bir ortam oluşturuyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-heart"></i>
+                <div>
+                  <h4>Müşteri Memnuniyeti</h4>
+                  <p>İhtiyaçlarınıza özel çözümler sunarak, memnuniyetinizi ön planda tutuyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+
+          </div>
+
+          <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/fire.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Alt Services 6 Section -->
+
+    <!-- Alt Services 7 Section -->
+    <section id="alt-services-2" class="alt-services-2 section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
+            <h3>Kumlama ve Boya Hizmetleri</h3>
+            <p>Yüzeyleri Yenileyin, Mekanlarınıza Değer Katın.
+             <p>Kumlama ve boya uygulamaları, mekanlarınızın estetiğini artırmanın ve yüzeylerini korumanın en etkili yollarındandır. Uzman ekibimizle, her türlü yüzey için profesyonel kumlama ve boya hizmetleri sunuyoruz. Kalite ve estetik odaklı çözümlerimizle mekanlarınızı yeniliyoruz.</p>
+              </p>
+
+            <div class="row">
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-emoji-smile"></i>
+                <div>
+                  <h4>Uzman Kadro</h4>
+                  <p>Deneyimli teknisyenlerimiz, her projeyi titizlikle ele alarak en iyi sonuçları elde eder.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-patch-check flex-shrink-0"></i>
+                <div>
+                  <h4>Yüksek Kalite Malzeme</h4>
+                  <p>Kullanılan malzemelerin kalitesine önem veriyor, uzun ömürlü ve dayanıklı çözümler sunuyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-check-all"></i>
+                <div>
+                  <h4>Hızlı ve Güvenilir Hizmet</h4>
+                  <p>Projelerinizi zamanında tamamlayarak müşteri memnuniyetini sağlıyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-lg-6 icon-box d-flex">
+                <i class="bi bi-arrow-left"></i>
+                <div>
+                  <h4>Özelleştirilmiş Çözümler</h4>
+                  <p>İhtiyaçlarınıza uygun özelleştirilmiş hizmet sunarak her müşterinin beklentisini karşılıyoruz.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+
+          </div>
+
+          <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/kumlama.jpg" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Alt Services 7 Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>DYM</h2>
+        <p>Uzman kadromuzla biz sizin için buradayız!</p>
+      </div><!-- End Section Title -->
+
+    </section><!-- /Team Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Dönüşüm Yapı ve Mühendislik</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Online Şirket</p>
+            <p>Kocaeli, Türkiye</p>
+            <p class="mt-3"><strong>Telefon:</strong> <span>+90 531 257 91 84 /  +90 542 325 85 79</span></p>
+            <p><strong>Email:</strong> <span>donusumyapivemuhendislik@gmail.com </span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="https://www.instagram.com/donusumyapivemuhendislik/?hl=tr"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/d%C3%B6n%C3%BC%C5%9F%C3%BCm-yap%C4%B1-ve-m%C3%BChendislik-87370b331/
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hizmetlerimiz</h4>
+          <ul>
+            <li><a href="ic-dismekan.html">İç ve Dış Mekan Görselleştirme</a></li>
+            <li><a href="rölöve.html">Rölöve İşleri</a></li>
+            <li><a href="tamirat.html">Tamirat -Tadilat İşleri</a></li>
+            <li><a href="dekorasyon.html">Dekorasyon İşleri</a></li>
+            <li><a href="peyzaj.html">Peyzaj Ve Bahçe Düzenleme İşleri</a></li>
+            <li><a href="fireproofing.html">Fireproofing Uygulamaları (Yangın Yalıtım Sıva Uygulaması ve Pasif Yangın Durdurucu Sistemleri)</a></li>
+            <li><a href="kumlama.html">Kumlama – Boyama İşlemleri</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Dönüşüm Yapı ve Mühendislik</strong> <span>Tüm Hakları Saklıdır.</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by Dönüşüm Yapı ve Mühendislik
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
